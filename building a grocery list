@@ -12,3 +12,8 @@ def create_list
   hash 
   return hash
 end
+
+def create_shopping_list
+hash = {"items" => "deli"}
+return hash
+end
