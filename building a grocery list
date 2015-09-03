@@ -1,0 +1,5 @@
+grocery_list = Hash.new
+
+def create_shopping_list(grocery_list)
+  return grocery_list
+end
