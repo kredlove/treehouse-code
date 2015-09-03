@@ -1,0 +1,5 @@
+grocery_item.merge("calories", 100)
+
+final_item.Hash.new
+
+final_item.merge("item" => "Bread", "quantity" => 1, "brand" => "Treehouse Bread Company", "calories" => 100)
