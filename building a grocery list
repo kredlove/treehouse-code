@@ -1,5 +1,14 @@
-grocery_list = Hash.new
+grocery_list.Hash.new
+grocery_list = { "name" => name, "items" => Array.new }
 
-def create_shopping_list(grocery_list)
+def create_shopping_list
   return grocery_list
+end
+
+def create_list
+  print "What is the list name? "
+  name = gets.chomp
+
+  hash 
+  return hash
 end
