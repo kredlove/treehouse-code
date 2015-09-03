@@ -17,3 +17,10 @@ def create_shopping_list
 hash = {"items" => "deli"}
 return hash
 end
+
+array = Array.new
+
+def add_list_items
+  array = ["milk" "cheese" "eggs"]
+  return array
+end
