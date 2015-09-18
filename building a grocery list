@@ -65,3 +65,18 @@ get_answer
     break
   end
 end
+
+While loop
+
+i = 0
+while i < 5
+  i += 1
+end
+
+Until Loop
+
+i = 0
+
+until i > 5
+ i += 1
+end
