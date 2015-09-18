@@ -37,3 +37,31 @@ grocery_item = { 'title' => 'Bread', 'quantity' => 1 }
 
 
 grocery_list["items"][0] = grocery_item
+
+
+loops in treehouse with ruby!
+
+
+
+numbers = []
+
+number = 0
+
+loop do
+  numbers[number] = number
+  number = number + 1
+  if numbers.length >= 3
+    break
+  end
+end
+
+conditional loop
+
+answer = "e"
+
+loop do
+get_answer
+  if answer = "e"
+    break
+  end
+end
