@@ -25,6 +25,18 @@ def add_list_items
   return array
 end
 
+times loop 
+
+contact = {
+  "name" => "Mike The Frog",
+  "phone_number" => "555-1212"
+}
+
+5.times do |key|
+  puts " This is the #{key} of the contact list"
+end
+
+
 Iteration - working with loops using each method
 
 numbers = [0, 1, 2, 3, 4, 5]
