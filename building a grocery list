@@ -88,3 +88,20 @@ i = 0
 until i > 5
  i += 1
 end
+
+
+Iteration - working with the each method using arrays
+
+
+
+
+using each method with hashes
+
+contact = {
+  "name" => "Mike The Frog",
+  "phone_number" => "555-1212"
+}
+
+contact.each do |key, value|
+  puts " This is the key #{key} and this is the value #{value} of the contact hash"
+end
