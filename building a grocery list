@@ -25,6 +25,14 @@ def add_list_items
   return array
 end
 
+Iteration - working with loops using each method
+
+numbers = [0, 1, 2, 3, 4, 5]
+
+numbers.each do |item|
+  puts "The current number in the array is #{item}"
+end 
+
 hash = Hash.new
 
 def create_shopping_list
