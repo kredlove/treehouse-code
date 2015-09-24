@@ -25,6 +25,15 @@ def add_list_items
   return array
 end
 
+
+for loop unsing an array - for loop works outside a block of code rather than inside the block (which means that the code 
+is not contained inside it's own block. What kinds of problems/advantages could this create when coding?)
+
+animals = ["dog", "cat", "horse", "goat"]
+
+for animals in ["dog", "cat", "horse", "goat"]
+  puts " I like #{animals}"
+end
 times loop 
 
 contact = {
