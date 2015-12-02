@@ -126,3 +126,22 @@ contact = {
 contact.each do |key, value|
   puts " This is the key #{key} and this is the value #{value} of the contact hash"
 end
+
+boolean values
+
+nil
+
+class Product
+  attr_reader :name, :price
+, :sku
+  
+  def initialize(name, price)
+    @name = name
+    @price = price
+  end
+end
+def sku 
+sku = nil
+return sku  
+end
+
